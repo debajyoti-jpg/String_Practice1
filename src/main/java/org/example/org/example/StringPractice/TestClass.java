@@ -1,16 +1,13 @@
-package org.example;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
+package org.example.org.example.StringPractice;
 
 public class TestClass {
-    static String name = "Debajyoti";
+    static java.lang.String name = "Debajyoti";
 
-    public static void main(String[] args) {
+    public static void main(java.lang.String[] args) {
 
     //reverse of a string
 
-        String concat = "";
+        java.lang.String concat = "";
         for(int i=name.length()-1;i>=0;i--){
 
             //System.out.println(name.charAt(i));
@@ -26,7 +23,7 @@ public class TestClass {
         st.reverse();
     System.out.println("String Buffer Way :"+st);
 
-    String rev = name.chars().mapToObj(ch -> String.valueOf((char) ch)).
+    java.lang.String rev = name.chars().mapToObj(ch -> java.lang.String.valueOf((char) ch)).
             reduce((acc,ch) -> ch+acc).orElse("");
 
         System.out.println("Java 8  Way :"+rev);

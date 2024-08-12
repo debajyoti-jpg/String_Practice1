@@ -2,7 +2,7 @@ package org.example.org.example.StringPractice;
 
 import java.util.Scanner;
 
-public class String {
+public class StringPractice {
     public static void main(java.lang.String[] args) {
 
         System.out.println("Enter You Name ----");
