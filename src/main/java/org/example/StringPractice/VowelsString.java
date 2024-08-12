@@ -1,4 +1,4 @@
-package org.example.org.example.StringPractice;
+package org.example.StringPractice;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,8 +1,4 @@
-package org.example.org.example.StringPractice;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.Collectors;
+package org.example.StringPractice;
 
 public class ReplaceWithNextChar {
 

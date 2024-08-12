@@ -1,4 +1,4 @@
-package org.example.org.example.StringPractice;
+package org.example.StringPractice;
 
 public class TestClass {
     static java.lang.String name = "Debajyoti";
